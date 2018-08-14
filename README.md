@@ -18,13 +18,13 @@ There are 8 built-in color schemes:
 * red
 
 these are used by passing the `color` prop like this:
-``` javascript
+``` jsx
 <Btn color={'red'}> ... </Btn>
 ```
 
 ## Custom Color Schemes
 You can create your own color schemes by passing an object to the `color` prop:
-``` JavaScript
+``` jsx
 <Btn color={{
   background: 'magenta',
   border: 'rgb(97, 42, 205)',
@@ -36,7 +36,7 @@ You can create your own color schemes by passing an object to the `color` prop:
 
 ## Overriding Defaults
 You may override anything you want by using an inline style prop as an object:
-``` JavaScript
+``` jsx
 <Btn 
   style={{
     height: '400px',
@@ -52,6 +52,6 @@ You may override anything you want by using an inline style prop as an object:
 
 ## Optional Props
 `caps` is a boolean, add this to uppercase all text:
-``` JavaScript
+``` jsx
 <Btn caps> this will be all uppercase </Btn>
 ```
